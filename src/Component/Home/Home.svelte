@@ -52,7 +52,6 @@
             }
         }
 
-        console.log({ weather, weather2, forecast });
     };
 </script>
 
@@ -196,7 +195,7 @@
         {#if !weather.main && !weather2.main}
             <div>
                 <img
-                    src="https://i.ibb.co/GdDBYbj/image-removebg-preview-61.png"
+                    src="https://i.ibb.co/FgZGnCK/image-removebg-preview-49.png"
                     alt=""
                     class=""
                 />
