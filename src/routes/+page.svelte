@@ -5,7 +5,7 @@
 <div >
     
 <div>
-<h1 class="text-6xl my-12  font-bold text-center text-sky-400 font-sans">Welcome To Our Weather Web </h1>
+<h1 class="text-6xl my-12  font-bold text-center text-sky-400 font-sans">To Our Weather Web </h1>
 
 </div>
 <div class="">

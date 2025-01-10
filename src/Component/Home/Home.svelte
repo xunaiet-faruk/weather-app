@@ -1,4 +1,5 @@
 <script lang="ts">
+    import  './Home.css'
     const api: { key: string; base: string } = {
         key: "291cecb64261d7788117b97270bf97e8",
         base: "https://api.openweathermap.org/data/2.5/",
@@ -64,17 +65,18 @@
         <div class="m-3 flex justify-center items-center">
             <form>
                 <div class="flex justify-center items-center">
-                    <div class="input-container">
+                    <div class="container">
                         <input
                             placeholder="Enter city/town or ZIP Code..."
                             bind:value={search}
-                            class="input p-3 w-[350px] text-white rounded-xl bg-gradient-to-r from-cyan-300 to-blue-500 border-sky-600"
+                            class="input"
                             name="text"
                             type="text"
                         />
+                      
                     </div>
                     <button
-                        class="px-3 py-3 hover:scale-105 transition bg-gradient-to-l from-cyan-300 to-blue-500 border-sky-600 text-white rounded-lg"
+                        class="px-3 py-4 hover:scale-105 transition bg-gradient-to-l from-cyan-300 to-blue-500 border-sky-600 text-white rounded-lg"
                         on:click|preventDefault={searchPressed}
                         ><img
                             class="w-6 text-white"
